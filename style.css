@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+form {
+    background-color: aqua;
+    width: 200rem;
+    height: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input, label {
+    margin-top: 1rem;
+    height: 3rem;
+    font-size: 3rem;
+}
